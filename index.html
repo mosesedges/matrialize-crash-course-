@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Materialize Tutorial</title>
+
+    <style>
+        h4 {
+            width: 80vw;
+            text-transform: uppercase;
+            padding: 10px;
+            margin: 10px auto;
+            border: 5px solid darkmagenta;
+            color: navy;
+            text-align: center;
+            letter-spacing: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h4>colours</h4>
+    <div class="container">
+        <div class="card-panel">
+            <span>
+                <ul>
+
+
+                    <li class="red lighten-5 black-text">class of red lighten-5 black-text</li>
+                    <li class="red lighten-4 black-text">class of red lighten-4 black-text</li>
+                    <li class="red lighten-3 black-text">class of red lighten-3 black-text</li>
+                    <li class="red lighten-2 black-text">class of red lighten-2 black-text</li>
+                    <li class="red lighten-1 black-text">class of red lighten-1 black-text</li>
+                    <li class="red black-text">class of red black text</li>
+                </ul>
+            </span>
+        </div>
+
+
+        <div class="card-panel">
+            <span>
+                <ul>
+
+                    <li class="blue darken-1  white-text">class of blue darken-1 white-text</li>
+                    <li class="blue darken-2 white-text">class of blue darken-2 white-text</li>
+                    <li class="blue darken-3 white-text">class of blue darken-3 white-text</li>
+                    <li class="blue darken-4 white-text">class of blue darken-4 white-text</li>
+                    <li class="blue  white-text">class of blue white-text</li>
+                </ul>
+            </span>
+        </div>
+
+        <div class="card-panel">
+            <ul>
+                <li class="green accent-1 orange-text darken-1">class of green accent-1 orange-text darken-</li>
+                <li class="green accent-2 orange-text darken-2">class of green accent-2 orange-text darken-</li>
+                <li class="green accent-3 orange-text darken-3">class of green accent-3 orange-text darken-</li>
+                <li class="green accent-4 orange-text darken-4">class of green accent-4 orange-text darken-</li>
+                <li class="green  orange-text">class of green orange-text </li>
+            </ul>
+        </div>
+
+        <h4>Grid</h4>
+        <div class="row">
+            <div class="col s1 orange">s-01</div>
+            <div class="col s1 pink">s-02</div>
+            <div class="col s1 blue">s-03</div>
+            <div class="col s1 white">s-04</div>
+            <div class="col s1 purple">s-05</div>
+            <div class="col s1 green">s-06</div>
+            <div class="col s1 brown">s-07</div>
+            <div class="col s1 black white-text">s-08</div>
+            <div class="col s1 indigo">s-09</div>
+            <div class="col s1 yellow">s-010</div>
+            <div class="col s1 red">s-11</div>
+            <div class="col s1 grey">s-12</div>
+        </div>
+
+        <div class="row ">
+            <div class="col s6 red ">
+                <p class="section divide">this is a (col s6 red and yellow ) this spilt the 12 columns into two equal sizes also the padding is added by the (class of section )</p>
+            </div>
+            <div class="col s6 yellow">
+                <p class="section divide">this is a (col s6 red and yellow ) this spilt the 12 columns into two equal sizes also the padding is added by the (class of section )</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col offset-s4 green white-text">
+                <p>for a responsive grid a grid must be placed in a div with the class of row, ( this is a class of offset-s4) which simply takes away 4 columns thats why we have a green 8 columns </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class=" col s7 push-s5 grey white-text">
+                <p>a class of (s7 push5 grey) this will simply align 7columns left .</p>
+            </div>
+            <div class=" col s5 pull-s7 blue white-text ">
+                <p>a class of (s7 push5 blue) this will simply align 5columns right.</p>
+            </div>
+        </div>
+
+
+
+
+
+        <h4>classes</h4>
+
+        <div class="card-panel valign-wrapper">
+            <p class="valign">Class of valign (vertical alignment)</p>
+        </div>
+
+        <div class="card-panel ">
+
+            <h5 class="left-align ">class of left-align</h5>
+            <h5 class="center-align  ">class of center-align</h5>
+            <h5 class="right-align">class of right-align</h5>
+        </div>
+
+        <div class="hoverable">
+            <p style="font-size: 2rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod accusamus quia nihil, autem assumenda commodi
+            </p>
+        </div>
+
+        <div class=" card-panel hide-on-small-only">
+            <p style="font-size: 2rem;" class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quibusdam accusantium corrupti, nostrum sit aut repudiandae illum nemo nisi numquam rem repellat quas sapiente quo alias, perferendis neque magnam voluptatibus?
+            </p>
+        </div>
+
+        <div class="card-panel center">
+            <h5>card-panel center</h5>
+            <img src="../images/pic2.jpg" width="200px" alt="">
+
+        </div>
+
+        <h4>shadows</h4>
+
+        <div class="card-panel">
+            <div>
+                <p class="z-depth-1">z-depth-1(adds 1px showder)</p>
+
+                <p class="z-depth-2">z-depth-2(adds 2px showder)</p>
+
+                <p class="z-depth-3">z-depth-3(adds 3px showder)</p>
+
+                <p class="z-depth-4">z-depth-4(adds 4px showder)</p>
+
+                <p class="z-depth-5">z-depth-5(adds 5px showder)</p>
+
+            </div>
+        </div>
+
+        <h4>tables</h4>
+
+        <h3> class of centered </h3>
+
+        <div>
+            <table class=" centered">
+                <tr>
+                    <thead>
+                        <th>ID</th>
+                        <th>NAME</th>
+                        <th>LOCATION</th>
+                    </thead>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Ugo</td>
+                    <td>New Jersey</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Alex</td>
+                    <td>London</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Justice</td>
+                    <td>Debrecen</td>
+                </tr>
+            </table>
+        </div>
+
+        <br>
+
+        <h3>class of striped bordered </h3>
+        <div>
+            <table class="  striped bordered ">
+                <tr>
+                    <thead>
+                        <th>ID</th>
+                        <th>NAME</th>
+                        <th>LOCATION</th>
+                    </thead>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Ugo</td>
+                    <td>New Jersey</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Alex</td>
+                    <td>London</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Justice</td>
+                    <td>Debrecen</td>
+                </tr>
+            </table>
+        </div>
+
+        <br>
+
+        <h3>class of highlight </h3>
+        <div>
+            <table class=" highlight">
+                <tr>
+                    <thead>
+                        <th>ID</th>
+                        <th>NAME</th>
+                        <th>LOCATION</th>
+                        <th>AGE</th>
+                        <th>D.O.B</th>
+                        <th>OCCUPATION</th>
+                    </thead>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Ugo</td>
+                    <td>New Jersey</td>
+                    <td>35</td>
+                    <td>1985</td>
+                    <td>Fireman</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Junior</td>
+                    <td>London</td>
+                    <td>31</td>
+                    <td>1989</td>
+                    <td>Programmer</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Justice</td>
+                    <td>Debrecen</td>
+                    <td>23</td>
+                    <td>1997</td>
+                    <td>Pharmacist</td>
+                </tr>
+            </table>
+        </div>
+
+        <br>
+
+        <h3>class of responsive-table </h3>
+        <div>
+            <table class=" responsive-table">
+                <tr>
+                    <thead>
+                        <th>ID</th>
+                        <th>NAME</th>
+                        <th>LOCATION</th>
+                        <th>AGE</th>
+                        <th>D.O.B</th>
+                        <th>OCCUPATION</th>
+                    </thead>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Ugo</td>
+                    <td>New Jersey</td>
+                    <td>35</td>
+                    <td>1985</td>
+                    <td>Fireman</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Junior</td>
+                    <td>London</td>
+                    <td>31</td>
+                    <td>1989</td>
+                    <td>Programmer</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Justice</td>
+                    <td>Debrecen</td>
+                    <td>23</td>
+                    <td>1997</td>
+                    <td>Pharmacist</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class=" card-panel ">
+            <p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quibusdam accusantium corrupti, nostrum sit aut repudiandae illum nemo nisi numquam rem repellat quas sapiente quo alias, perferendis neque magnam voluptatibus?
+            </p>
+        </div>
+
+        <h4>badges</h4>
+
+        <div class="collection">
+            <a href="#" class="collection-item">inbox<span class="badge">23</span></a>
+            <a href="#" class="collection-item">unread <span class="new badge">12</span></a>
+            <a href="#" class="collection-item"> sent<span class="badge">2</span></a>
+            <a href="#" class="collection-item">outbox <span class="badge">247</span></a>
+
+
+        </div>
+
+        <div class="card-panel">
+            <ul id="dropdown2" class="dropdown-content">
+                <li><a href="#">inbox<span class="badge">21</span></a></li>
+                <li><a href="#">unread<span class="new badge">14</span></a></li>
+                <li><a href="#">sent<span class="badge">4</span></a></li>
+                <li><a href="#">outbox</a></li>
+            </ul>
+            <a class="btn dropdown-trigger" href="#" data-target="dropdown2">Dropdown <i
+                    class="material-icons right">arrow_drop_down</i></a>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
